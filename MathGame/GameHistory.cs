@@ -29,6 +29,9 @@ namespace MathGame
             {
                 Console.WriteLine($"Game {i + 1}: {history[i]}");
             }
+            Console.WriteLine("Press enter to continue");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }

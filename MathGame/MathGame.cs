@@ -51,6 +51,7 @@ namespace MathGame
 
         private void DisplayMenu()
         {
+            
             Console.WriteLine("\\n=== Math Game ===");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
@@ -77,6 +78,10 @@ namespace MathGame
                 Console.WriteLine($"Wrong! The correct answer was {problem.CorrectAnswer}.");
                 history.AddResult($"Incorrect: {problem.Question} = {problem.CorrectAnswer}");
             }
+            Console.WriteLine("Press enter to continue");
+            Console.ReadLine();
+            Console.Clear();
+
         }
     }
 }
