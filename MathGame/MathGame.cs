@@ -63,7 +63,7 @@ namespace MathGame
         private void DisplayMenu()
         {
             
-            Console.WriteLine("\\n=== Math Game ===");
+            Console.WriteLine("\n=== Math Game ===");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
             Console.WriteLine("3. Division");
