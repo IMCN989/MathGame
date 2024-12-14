@@ -34,7 +34,27 @@ namespace MathGame
                     CorrectAnswer = num1 + num2;
                     Question = $"{num1} + {num2}";
                     break;
-                    // Implement other cases (subtraction, multiplication, division)
+
+                case "subtraction":
+                    num1 = random.Next(1, 101);
+                    num2 = random.Next(1, 101);
+                    CorrectAnswer = num1 + num2;
+                    Question = $"{num1} - {num2}";
+                    break;
+
+                case "division":
+                    num1 = random.Next(1, 101);
+                    num2 = random.Next(1, 101);
+                    CorrectAnswer = num1 / num2;
+                    Question = $"{num1} / {num2}";
+                    break;
+
+                case "multiplication":
+                    num1 = random.Next(1, 101);
+                    num2 = random.Next(1, 101);
+                    CorrectAnswer = num1 * num2;
+                    Question = $"{num1} x {num2}";
+                    break;
             }
         }
 

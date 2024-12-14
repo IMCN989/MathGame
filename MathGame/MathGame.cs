@@ -27,6 +27,15 @@ namespace MathGame
                         PlayGame("addition");
                         break;
                     case "2":
+                        PlayGame("subtraction");
+                        break;
+                    case "3":
+                        PlayGame("division");
+                        break;
+                    case "4":
+                        PlayGame("multiplication");
+                        break;
+                    case "5":
                         history.DisplayHistory();
                         break;
                     case "q":
@@ -44,7 +53,10 @@ namespace MathGame
         {
             Console.WriteLine("\\n=== Math Game ===");
             Console.WriteLine("1. Addition");
-            Console.WriteLine("2. View History");
+            Console.WriteLine("2. Subtraction");
+            Console.WriteLine("3. Division");
+            Console.WriteLine("4. Multiplication");
+            Console.WriteLine("5. View History");
             Console.WriteLine("q. Quit");
             Console.Write("Choose an option: ");
         }
